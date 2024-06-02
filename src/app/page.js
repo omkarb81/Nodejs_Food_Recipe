@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-    <h1>Welcome To recipe app </h1>
-    <Link href={'recipe-list'}>Explore Recipe</Link>
+   <div className="flex justify-center items-center min-h-screen flex-col">
+    <h1 className="text-8xl font-extrabold ">Welcome To recipe app </h1>
+    <Link href={'recipe-list'}> <button className="p-3 mt-10 text-2xl rounded-md text-white bg-black ">Explore Recipe</button> </Link>
     </div>
   );
 }
